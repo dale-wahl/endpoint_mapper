@@ -1,0 +1,405 @@
+{
+  "crawl_summary": {
+    "base_url": "http://localhost:5000/graphql",
+    "crawl_timestamp": "2025-08-01T12:57:06.802027+00:00",
+    "crawl_duration_seconds": 1.11,
+    "pages_discovered": 1,
+    "total_api_calls_found": 1,
+    "unique_api_endpoints": 1,
+    "pages_with_apis": 1,
+    "pages_without_apis": 0,
+    "avg_apis_per_page": 1.0
+  },
+  "pages": [
+    {
+      "url": "http://localhost:5000/graphql",
+      "title": "GraphiQL",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "discovered_from": null,
+      "api_endpoints": [
+        {
+          "endpoint": "/graphql",
+          "method": "POST",
+          "detected_in": "external_script_//cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js",
+          "full_url": "http://localhost:5000/graphql"
+        }
+      ],
+      "endpoint_count": 1,
+      "scripts_analysis": {
+        "scripts_found": [
+          {
+            "type": "inline",
+            "content_length": 2513,
+            "analyzed": true,
+            "endpoints_found": 0
+          },
+          {
+            "type": "external",
+            "src": "//cdn.jsdelivr.net/es6-promise/4.0.5/es6-promise.auto.min.js",
+            "full_url": "http://cdn.jsdelivr.net/es6-promise/4.0.5/es6-promise.auto.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 6367
+          },
+          {
+            "type": "external",
+            "src": "//cdn.jsdelivr.net/fetch/0.9.0/fetch.min.js",
+            "full_url": "http://cdn.jsdelivr.net/fetch/0.9.0/fetch.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 4591
+          },
+          {
+            "type": "external",
+            "src": "//cdn.jsdelivr.net/react/15.4.2/react.min.js",
+            "full_url": "http://cdn.jsdelivr.net/react/15.4.2/react.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 21203
+          },
+          {
+            "type": "external",
+            "src": "//cdn.jsdelivr.net/react/15.4.2/react-dom.min.js",
+            "full_url": "http://cdn.jsdelivr.net/react/15.4.2/react-dom.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 123889
+          },
+          {
+            "type": "external",
+            "src": "//cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js",
+            "full_url": "http://cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js",
+            "analyzed": true,
+            "endpoints_found": 1,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 1016644
+          }
+        ],
+        "total_scripts_found": 6,
+        "scripts_analyzed_count": 5,
+        "external_scripts_found": 5,
+        "inline_scripts_found": 1
+      },
+      "links_found": {
+        "internal_count": 0,
+        "external_count": 0,
+        "internal_links": [],
+        "external_links": []
+      },
+      "spa_analysis": {
+        "framework": "react",
+        "route_count": 0,
+        "spa_routes": [],
+        "route_patterns": {},
+        "features": {
+          "has_router_outlet": false,
+          "has_dynamic_imports": false,
+          "has_state_management": false,
+          "has_history_api": true,
+          "has_single_page_container": true,
+          "framework_specific_features": {}
+        },
+        "has_spa_indicators": true
+      }
+    }
+  ],
+  "api_summary": {
+    "/graphql": {
+      "used_by_pages": [
+        "http://localhost:5000/graphql"
+      ],
+      "http_methods": [
+        "POST"
+      ],
+      "detection_sources": [
+        "external_script_//cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js"
+      ],
+      "usage_frequency": 1,
+      "page_count": 1
+    }
+  },
+  "script_analysis_summary": {
+    "total_script_references": 6,
+    "unique_inline_scripts": 1,
+    "unique_external_scripts": 5,
+    "total_inline_script_instances": 1,
+    "scripts_analyzed": 6,
+    "scripts_with_endpoints": 1,
+    "total_endpoints_from_scripts": 1,
+    "unique_external_scripts_details": [
+      {
+        "src": "//cdn.jsdelivr.net/es6-promise/4.0.5/es6-promise.auto.min.js",
+        "full_url": "http://cdn.jsdelivr.net/es6-promise/4.0.5/es6-promise.auto.min.js",
+        "found_on_pages": [
+          "http://localhost:5000/graphql"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 6367,
+        "reference_count": 1
+      },
+      {
+        "src": "//cdn.jsdelivr.net/fetch/0.9.0/fetch.min.js",
+        "full_url": "http://cdn.jsdelivr.net/fetch/0.9.0/fetch.min.js",
+        "found_on_pages": [
+          "http://localhost:5000/graphql"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 4591,
+        "reference_count": 1
+      },
+      {
+        "src": "//cdn.jsdelivr.net/react/15.4.2/react.min.js",
+        "full_url": "http://cdn.jsdelivr.net/react/15.4.2/react.min.js",
+        "found_on_pages": [
+          "http://localhost:5000/graphql"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 21203,
+        "reference_count": 1
+      },
+      {
+        "src": "//cdn.jsdelivr.net/react/15.4.2/react-dom.min.js",
+        "full_url": "http://cdn.jsdelivr.net/react/15.4.2/react-dom.min.js",
+        "found_on_pages": [
+          "http://localhost:5000/graphql"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 123889,
+        "reference_count": 1
+      },
+      {
+        "src": "//cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js",
+        "full_url": "http://cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js",
+        "found_on_pages": [
+          "http://localhost:5000/graphql"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 1,
+        "error": null,
+        "content_length": 1016644,
+        "reference_count": 1
+      }
+    ],
+    "unique_inline_scripts_details": [
+      {
+        "type": "inline",
+        "content_preview": "",
+        "found_on_pages": [
+          "http://localhost:5000/graphql"
+        ],
+        "analyzed": true,
+        "endpoints_found": 0
+      }
+    ],
+    "analysis_efficiency": {
+      "external_scripts_fetched": 5,
+      "external_scripts_failed": 0,
+      "external_scripts_skipped": 0,
+      "most_referenced_scripts": [
+        [
+          "http://cdn.jsdelivr.net/es6-promise/4.0.5/es6-promise.auto.min.js",
+          1
+        ],
+        [
+          "http://cdn.jsdelivr.net/fetch/0.9.0/fetch.min.js",
+          1
+        ],
+        [
+          "http://cdn.jsdelivr.net/react/15.4.2/react.min.js",
+          1
+        ],
+        [
+          "http://cdn.jsdelivr.net/react/15.4.2/react-dom.min.js",
+          1
+        ],
+        [
+          "http://cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js",
+          1
+        ]
+      ]
+    }
+  },
+  "page_relationships": {
+    "crawled_pages": {
+      "http://localhost:5000/graphql": {
+        "title": "GraphiQL",
+        "discovered_from": null,
+        "status_code": 200,
+        "internal_outbound_links": [],
+        "external_outbound_links": [],
+        "internal_inbound_links": []
+      }
+    },
+    "discovered_internal_pages": {},
+    "external_pages": {},
+    "summary": {
+      "crawled_pages": 1,
+      "discovered_but_not_crawled": 0,
+      "total_internal_links_found": 0,
+      "total_external_links_found": 0,
+      "total_internal_link_connections": 0,
+      "total_external_link_connections": 0,
+      "most_linked_internal_pages": [
+        [
+          "http://localhost:5000/graphql",
+          0
+        ]
+      ],
+      "most_linking_pages": [
+        [
+          "http://localhost:5000/graphql",
+          0
+        ]
+      ],
+      "most_linked_external_pages": []
+    }
+  },
+  "site_structure": {
+    "total_pages": 1,
+    "pages_by_domain": {
+      "localhost:5000": [
+        {
+          "url": "http://localhost:5000/graphql",
+          "title": "GraphiQL",
+          "path": "/graphql"
+        }
+      ]
+    },
+    "crawl_depth_analysis": {
+      "root_url": "http://localhost:5000/graphql",
+      "depth_distribution": {
+        "0": 1
+      },
+      "deepest_pages": [
+        "http://localhost:5000/graphql"
+      ],
+      "max_depth": 0
+    }
+  },
+  "endpoint_categories": {
+    "graphql": [
+      "/graphql"
+    ]
+  },
+  "page_statistics": {
+    "total_pages": 1,
+    "pages_with_apis": 1,
+    "pages_without_apis": 0,
+    "total_api_calls": 1,
+    "unique_endpoints": 1,
+    "avg_apis_per_page": 1.0
+  },
+  "insights": {
+    "most_used_endpoints": [
+      {
+        "endpoint": "/graphql",
+        "usage_count": 1,
+        "page_count": 1
+      }
+    ],
+    "endpoint_methods_distribution": {
+      "POST": 1
+    },
+    "detection_source_distribution": {
+      "external_script_//cdn.jsdelivr.net/npm/graphiql@0.12.0/graphiql.min.js": 1
+    },
+    "page_complexity_analysis": {
+      "min_endpoints_per_page": 1,
+      "max_endpoints_per_page": 1,
+      "avg_endpoints_per_page": 1.0,
+      "pages_with_no_apis": 0
+    },
+    "potential_issues": []
+  },
+  "metadata": {
+    "format_version": "1.1",
+    "tool_name": "Intelligent Endpoint Mapper",
+    "tool_version": "1.0.0",
+    "generation_timestamp": "2025-08-01T12:57:06.802027+00:00",
+    "run_parameters": {
+      "spa_analysis_enabled": true,
+      "max_pages": 50,
+      "fetch_external_scripts": true,
+      "include_external_apis": true,
+      "request_delay": 0.5,
+      "timeout": 10
+    },
+    "analysis_capabilities": {
+      "api_endpoint_detection": true,
+      "script_analysis": true,
+      "relationship_mapping": true,
+      "spa_route_discovery": true,
+      "external_script_fetching": true
+    }
+  },
+  "spa_analysis_summary": {
+    "spa_analysis_enabled": true,
+    "pages_with_spa_indicators": 1,
+    "pages_analyzed": 1,
+    "frameworks_detected": {
+      "react": 1
+    },
+    "total_spa_routes_found": 0,
+    "unique_spa_routes_found": 0,
+    "spa_features_summary": {
+      "has_router_outlet": 0,
+      "has_dynamic_imports": 0,
+      "has_state_management": 0,
+      "has_history_api": 1,
+      "has_single_page_container": 1
+    },
+    "route_patterns_summary": {
+      "dynamic_routes": 0,
+      "nested_routes": 0,
+      "hash_routes": 0,
+      "parameter_routes": 0
+    },
+    "pages_with_spa_details": [
+      {
+        "url": "http://localhost:5000/graphql",
+        "framework": "react",
+        "route_count": 0,
+        "has_spa_indicators": true
+      }
+    ],
+    "all_unique_spa_routes": [],
+    "insights": {
+      "most_common_framework": "react",
+      "avg_routes_per_spa_page": 0.0,
+      "spa_adoption_rate": "1/1 pages (100.0%)"
+    }
+  }
+}

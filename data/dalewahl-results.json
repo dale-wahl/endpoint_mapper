@@ -1,0 +1,693 @@
+{
+  "crawl_summary": {
+    "base_url": "https://dale-wahl.github.io/",
+    "crawl_timestamp": "2025-08-01T09:42:08.746593+00:00",
+    "crawl_duration_seconds": 2.21,
+    "pages_discovered": 2,
+    "total_api_calls_found": 0,
+    "unique_api_endpoints": 0,
+    "pages_with_apis": 0,
+    "pages_without_apis": 2,
+    "avg_apis_per_page": 0.0
+  },
+  "pages": [
+    {
+      "url": "https://dale-wahl.github.io",
+      "title": "Dale Wahl - Data Scientist",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "discovered_from": null,
+      "api_endpoints": [],
+      "endpoint_count": 0,
+      "scripts_analysis": {
+        "scripts_found": [
+          {
+            "type": "external",
+            "src": "vendor/jquery/jquery.min.js",
+            "full_url": "https://dale-wahl.github.io/vendor/jquery/jquery.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 86659
+          },
+          {
+            "type": "external",
+            "src": "vendor/popper/popper.min.js",
+            "full_url": "https://dale-wahl.github.io/vendor/popper/popper.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 19033
+          },
+          {
+            "type": "external",
+            "src": "vendor/bootstrap/js/bootstrap.min.js",
+            "full_url": "https://dale-wahl.github.io/vendor/bootstrap/js/bootstrap.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 51143
+          },
+          {
+            "type": "external",
+            "src": "vendor/jquery-easing/jquery.easing.min.js",
+            "full_url": "https://dale-wahl.github.io/vendor/jquery-easing/jquery.easing.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 2532
+          },
+          {
+            "type": "external",
+            "src": "js/jqBootstrapValidation.js",
+            "full_url": "https://dale-wahl.github.io/js/jqBootstrapValidation.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 37173
+          },
+          {
+            "type": "external",
+            "src": "js/contact_me.js",
+            "full_url": "https://dale-wahl.github.io/js/contact_me.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 2807
+          },
+          {
+            "type": "external",
+            "src": "js/agency.min.js",
+            "full_url": "https://dale-wahl.github.io/js/agency.min.js",
+            "analyzed": true,
+            "endpoints_found": 0,
+            "fetch_attempted": true,
+            "fetch_successful": true,
+            "error": null,
+            "content_length": 898
+          }
+        ],
+        "total_scripts_found": 7,
+        "scripts_analyzed_count": 7,
+        "external_scripts_found": 7,
+        "inline_scripts_found": 0
+      },
+      "links_found": {
+        "internal_count": 1,
+        "external_count": 18,
+        "internal_links": [
+          "https://dale-wahl.github.io/data.iowa.gov"
+        ],
+        "external_links": [
+          "https://codeburst.io/getting-python-3-up-and-running-on-amazons-cloud-3d04c0ee61af",
+          "https://docs.google.com/presentation/d/178vgdcrY4oBZ1QXHJYtTjZ4Be9C6k4SSbnmFLfxNoB4/edit",
+          "https://docs.google.com/presentation/d/1jYtqXynF6ohSalfJJv15OI5EVDpOy20XyFamecFL8Eo/edit",
+          "https://github.com/dale-wahl",
+          "https://github.com/dale-wahl/Iowa_liquor_sales",
+          "https://github.com/dale-wahl/SAT-ACT-Comparison",
+          "https://github.com/dale-wahl/Tesla_stock_prediction",
+          "https://github.com/dale-wahl/West-Nile-Virus",
+          "https://github.com/dale-wahl/card_deck_app",
+          "https://medium.com/@dalewahl/how-to-collect-data-through-web-scraping-using-selenium-e0f7a58c863d",
+          "https://medium.com/@dalewahl/linear-regressions-or-what-to-do-when-you-want-to-open-a-new-liquor-store-in-iowa-25fa619331b9",
+          "https://medium.com/@dalewahl/python-common-ways-to-work-with-text-d277fa8c6d6c",
+          "https://medium.com/@dalewahl/tesla-stock-price-prediction-f16a702f67d7",
+          "https://play.google.com/store/apps/details",
+          "https://towardsdatascience.com/i-support-vector-machines-and-so-should-you-7af122b6748",
+          "https://www.facebook.com/dale.wahl",
+          "https://www.kaggle.com/c/predict-west-nile-virus",
+          "https://www.linkedin.com/in/dalewahl/"
+        ]
+      },
+      "spa_analysis": {
+        "framework": null,
+        "route_count": 13,
+        "spa_routes": [
+          "https://dale-wahl.github.io#portfolioModal1",
+          "https://dale-wahl.github.io#portfolio",
+          "https://dale-wahl.github.io#team",
+          "https://dale-wahl.github.io#about",
+          "https://dale-wahl.github.io#contact",
+          "https://dale-wahl.github.io#portfolioModal2",
+          "https://dale-wahl.github.io#page-top",
+          "https://dale-wahl.github.io#portfolioModal4",
+          "https://dale-wahl.github.io#portfolioModal6",
+          "https://dale-wahl.github.io#portfolioModal5",
+          "https://dale-wahl.github.io#portfolioModal7",
+          "https://dale-wahl.github.io#portfolioModal3",
+          "https://dale-wahl.github.io#services"
+        ],
+        "route_patterns": {
+          "dynamic_routes": [],
+          "nested_routes": [],
+          "hash_routes": [
+            "https://dale-wahl.github.io#portfolioModal1",
+            "https://dale-wahl.github.io#portfolio",
+            "https://dale-wahl.github.io#team",
+            "https://dale-wahl.github.io#about",
+            "https://dale-wahl.github.io#contact",
+            "https://dale-wahl.github.io#portfolioModal2",
+            "https://dale-wahl.github.io#page-top",
+            "https://dale-wahl.github.io#portfolioModal4",
+            "https://dale-wahl.github.io#portfolioModal6",
+            "https://dale-wahl.github.io#portfolioModal5",
+            "https://dale-wahl.github.io#portfolioModal7",
+            "https://dale-wahl.github.io#portfolioModal3",
+            "https://dale-wahl.github.io#services"
+          ],
+          "parameter_routes": [],
+          "route_segments": {}
+        },
+        "features": {
+          "has_router_outlet": false,
+          "has_dynamic_imports": false,
+          "has_state_management": false,
+          "has_history_api": false,
+          "has_single_page_container": false,
+          "framework_specific_features": {}
+        },
+        "has_spa_indicators": true
+      }
+    },
+    {
+      "url": "https://dale-wahl.github.io/data.iowa.gov",
+      "title": null,
+      "status_code": 404,
+      "content_type": "text/html; charset=utf-8",
+      "discovered_from": "https://dale-wahl.github.io",
+      "api_endpoints": [],
+      "endpoint_count": 0,
+      "scripts_analysis": {
+        "scripts_found": [],
+        "total_scripts_found": 0,
+        "scripts_analyzed_count": 0,
+        "external_scripts_found": 0,
+        "inline_scripts_found": 0
+      },
+      "links_found": {
+        "internal_count": 0,
+        "external_count": 0,
+        "internal_links": [],
+        "external_links": []
+      }
+    }
+  ],
+  "api_summary": {},
+  "script_analysis_summary": {
+    "total_script_references": 7,
+    "unique_inline_scripts": 0,
+    "unique_external_scripts": 7,
+    "total_inline_script_instances": 0,
+    "scripts_analyzed": 7,
+    "scripts_with_endpoints": 0,
+    "total_endpoints_from_scripts": 0,
+    "unique_external_scripts_details": [
+      {
+        "src": "vendor/jquery/jquery.min.js",
+        "full_url": "https://dale-wahl.github.io/vendor/jquery/jquery.min.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 86659,
+        "reference_count": 1
+      },
+      {
+        "src": "vendor/popper/popper.min.js",
+        "full_url": "https://dale-wahl.github.io/vendor/popper/popper.min.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 19033,
+        "reference_count": 1
+      },
+      {
+        "src": "vendor/bootstrap/js/bootstrap.min.js",
+        "full_url": "https://dale-wahl.github.io/vendor/bootstrap/js/bootstrap.min.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 51143,
+        "reference_count": 1
+      },
+      {
+        "src": "vendor/jquery-easing/jquery.easing.min.js",
+        "full_url": "https://dale-wahl.github.io/vendor/jquery-easing/jquery.easing.min.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 2532,
+        "reference_count": 1
+      },
+      {
+        "src": "js/jqBootstrapValidation.js",
+        "full_url": "https://dale-wahl.github.io/js/jqBootstrapValidation.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 37173,
+        "reference_count": 1
+      },
+      {
+        "src": "js/contact_me.js",
+        "full_url": "https://dale-wahl.github.io/js/contact_me.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 2807,
+        "reference_count": 1
+      },
+      {
+        "src": "js/agency.min.js",
+        "full_url": "https://dale-wahl.github.io/js/agency.min.js",
+        "found_on_pages": [
+          "https://dale-wahl.github.io"
+        ],
+        "analyzed": true,
+        "fetch_attempted": true,
+        "fetch_successful": true,
+        "endpoints_found": 0,
+        "error": null,
+        "content_length": 898,
+        "reference_count": 1
+      }
+    ],
+    "unique_inline_scripts_details": [],
+    "analysis_efficiency": {
+      "external_scripts_fetched": 7,
+      "external_scripts_failed": 0,
+      "external_scripts_skipped": 0,
+      "most_referenced_scripts": [
+        [
+          "https://dale-wahl.github.io/vendor/jquery/jquery.min.js",
+          1
+        ],
+        [
+          "https://dale-wahl.github.io/vendor/popper/popper.min.js",
+          1
+        ],
+        [
+          "https://dale-wahl.github.io/vendor/bootstrap/js/bootstrap.min.js",
+          1
+        ],
+        [
+          "https://dale-wahl.github.io/vendor/jquery-easing/jquery.easing.min.js",
+          1
+        ],
+        [
+          "https://dale-wahl.github.io/js/jqBootstrapValidation.js",
+          1
+        ]
+      ]
+    }
+  },
+  "page_relationships": {
+    "crawled_pages": {
+      "https://dale-wahl.github.io": {
+        "title": "Dale Wahl - Data Scientist",
+        "discovered_from": null,
+        "status_code": 200,
+        "internal_outbound_links": [
+          "https://dale-wahl.github.io/data.iowa.gov"
+        ],
+        "external_outbound_links": [
+          "https://codeburst.io/getting-python-3-up-and-running-on-amazons-cloud-3d04c0ee61af",
+          "https://docs.google.com/presentation/d/178vgdcrY4oBZ1QXHJYtTjZ4Be9C6k4SSbnmFLfxNoB4/edit",
+          "https://docs.google.com/presentation/d/1jYtqXynF6ohSalfJJv15OI5EVDpOy20XyFamecFL8Eo/edit",
+          "https://github.com/dale-wahl",
+          "https://github.com/dale-wahl/Iowa_liquor_sales",
+          "https://github.com/dale-wahl/SAT-ACT-Comparison",
+          "https://github.com/dale-wahl/Tesla_stock_prediction",
+          "https://github.com/dale-wahl/West-Nile-Virus",
+          "https://github.com/dale-wahl/card_deck_app",
+          "https://medium.com/@dalewahl/how-to-collect-data-through-web-scraping-using-selenium-e0f7a58c863d",
+          "https://medium.com/@dalewahl/linear-regressions-or-what-to-do-when-you-want-to-open-a-new-liquor-store-in-iowa-25fa619331b9",
+          "https://medium.com/@dalewahl/python-common-ways-to-work-with-text-d277fa8c6d6c",
+          "https://medium.com/@dalewahl/tesla-stock-price-prediction-f16a702f67d7",
+          "https://play.google.com/store/apps/details",
+          "https://towardsdatascience.com/i-support-vector-machines-and-so-should-you-7af122b6748",
+          "https://www.facebook.com/dale.wahl",
+          "https://www.kaggle.com/c/predict-west-nile-virus",
+          "https://www.linkedin.com/in/dalewahl/"
+        ],
+        "internal_inbound_links": []
+      },
+      "https://dale-wahl.github.io/data.iowa.gov": {
+        "title": null,
+        "discovered_from": "https://dale-wahl.github.io",
+        "status_code": 404,
+        "internal_outbound_links": [],
+        "external_outbound_links": [],
+        "internal_inbound_links": [
+          "https://dale-wahl.github.io"
+        ]
+      }
+    },
+    "discovered_internal_pages": {},
+    "external_pages": {
+      "https://medium.com/@dalewahl/tesla-stock-price-prediction-f16a702f67d7": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://github.com/dale-wahl/card_deck_app": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://codeburst.io/getting-python-3-up-and-running-on-amazons-cloud-3d04c0ee61af": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://github.com/dale-wahl/SAT-ACT-Comparison": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://towardsdatascience.com/i-support-vector-machines-and-so-should-you-7af122b6748": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://github.com/dale-wahl/Tesla_stock_prediction": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://medium.com/@dalewahl/how-to-collect-data-through-web-scraping-using-selenium-e0f7a58c863d": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://play.google.com/store/apps/details": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://medium.com/@dalewahl/python-common-ways-to-work-with-text-d277fa8c6d6c": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://www.facebook.com/dale.wahl": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://www.kaggle.com/c/predict-west-nile-virus": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://docs.google.com/presentation/d/1jYtqXynF6ohSalfJJv15OI5EVDpOy20XyFamecFL8Eo/edit": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://www.linkedin.com/in/dalewahl/": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://github.com/dale-wahl": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://docs.google.com/presentation/d/178vgdcrY4oBZ1QXHJYtTjZ4Be9C6k4SSbnmFLfxNoB4/edit": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://medium.com/@dalewahl/linear-regressions-or-what-to-do-when-you-want-to-open-a-new-liquor-store-in-iowa-25fa619331b9": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://github.com/dale-wahl/Iowa_liquor_sales": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      },
+      "https://github.com/dale-wahl/West-Nile-Virus": {
+        "linked_from": [
+          "https://dale-wahl.github.io"
+        ],
+        "link_count": 1
+      }
+    },
+    "summary": {
+      "crawled_pages": 2,
+      "discovered_but_not_crawled": 0,
+      "total_internal_links_found": 1,
+      "total_external_links_found": 18,
+      "total_internal_link_connections": 1,
+      "total_external_link_connections": 18,
+      "most_linked_internal_pages": [
+        [
+          "https://dale-wahl.github.io/data.iowa.gov",
+          1
+        ],
+        [
+          "https://dale-wahl.github.io",
+          0
+        ]
+      ],
+      "most_linking_pages": [
+        [
+          "https://dale-wahl.github.io",
+          1
+        ],
+        [
+          "https://dale-wahl.github.io/data.iowa.gov",
+          0
+        ]
+      ],
+      "most_linked_external_pages": [
+        [
+          "https://medium.com/@dalewahl/tesla-stock-price-prediction-f16a702f67d7",
+          1
+        ],
+        [
+          "https://github.com/dale-wahl/card_deck_app",
+          1
+        ],
+        [
+          "https://codeburst.io/getting-python-3-up-and-running-on-amazons-cloud-3d04c0ee61af",
+          1
+        ],
+        [
+          "https://github.com/dale-wahl/SAT-ACT-Comparison",
+          1
+        ],
+        [
+          "https://towardsdatascience.com/i-support-vector-machines-and-so-should-you-7af122b6748",
+          1
+        ],
+        [
+          "https://github.com/dale-wahl/Tesla_stock_prediction",
+          1
+        ],
+        [
+          "https://medium.com/@dalewahl/how-to-collect-data-through-web-scraping-using-selenium-e0f7a58c863d",
+          1
+        ],
+        [
+          "https://play.google.com/store/apps/details",
+          1
+        ],
+        [
+          "https://medium.com/@dalewahl/python-common-ways-to-work-with-text-d277fa8c6d6c",
+          1
+        ],
+        [
+          "https://www.facebook.com/dale.wahl",
+          1
+        ]
+      ]
+    }
+  },
+  "site_structure": {
+    "total_pages": 2,
+    "pages_by_domain": {
+      "dale-wahl.github.io": [
+        {
+          "url": "https://dale-wahl.github.io",
+          "title": "Dale Wahl - Data Scientist",
+          "path": ""
+        },
+        {
+          "url": "https://dale-wahl.github.io/data.iowa.gov",
+          "title": null,
+          "path": "/data.iowa.gov"
+        }
+      ]
+    },
+    "crawl_depth_analysis": {
+      "root_url": "https://dale-wahl.github.io",
+      "depth_distribution": {
+        "0": 1,
+        "1": 1
+      },
+      "deepest_pages": [
+        "https://dale-wahl.github.io/data.iowa.gov"
+      ],
+      "max_depth": 1
+    }
+  },
+  "endpoint_categories": {},
+  "page_statistics": {
+    "total_pages": 2,
+    "pages_with_apis": 0,
+    "pages_without_apis": 2,
+    "total_api_calls": 0,
+    "unique_endpoints": 0,
+    "avg_apis_per_page": 0.0
+  },
+  "insights": {
+    "most_used_endpoints": [],
+    "endpoint_methods_distribution": {},
+    "detection_source_distribution": {},
+    "page_complexity_analysis": {
+      "min_endpoints_per_page": 0,
+      "max_endpoints_per_page": 0,
+      "avg_endpoints_per_page": 0.0,
+      "pages_with_no_apis": 2
+    },
+    "potential_issues": [
+      "No API endpoints detected - site may be purely static",
+      "No JavaScript-based API calls detected - may need dynamic analysis"
+    ]
+  },
+  "metadata": {
+    "format_version": "1.1",
+    "tool_name": "Intelligent Endpoint Mapper",
+    "tool_version": "1.0.0",
+    "generation_timestamp": "2025-08-01T09:42:08.746593+00:00",
+    "run_parameters": {
+      "spa_analysis_enabled": true,
+      "max_pages": 50,
+      "fetch_external_scripts": true,
+      "include_external_apis": true,
+      "request_delay": 0.5,
+      "timeout": 10
+    },
+    "analysis_capabilities": {
+      "api_endpoint_detection": true,
+      "script_analysis": true,
+      "relationship_mapping": true,
+      "spa_route_discovery": true,
+      "external_script_fetching": true
+    }
+  },
+  "spa_analysis_summary": {
+    "spa_analysis_enabled": true,
+    "pages_with_spa_indicators": 1,
+    "pages_analyzed": 1,
+    "frameworks_detected": {
+      "null": 1
+    },
+    "total_spa_routes_found": 13,
+    "unique_spa_routes_found": 13,
+    "spa_features_summary": {
+      "has_router_outlet": 0,
+      "has_dynamic_imports": 0,
+      "has_state_management": 0,
+      "has_history_api": 0,
+      "has_single_page_container": 0
+    },
+    "route_patterns_summary": {
+      "dynamic_routes": 0,
+      "nested_routes": 0,
+      "hash_routes": 13,
+      "parameter_routes": 0
+    },
+    "pages_with_spa_details": [
+      {
+        "url": "https://dale-wahl.github.io",
+        "framework": null,
+        "route_count": 13,
+        "has_spa_indicators": true
+      }
+    ],
+    "all_unique_spa_routes": [
+      "https://dale-wahl.github.io#portfolioModal1",
+      "https://dale-wahl.github.io#portfolio",
+      "https://dale-wahl.github.io#team",
+      "https://dale-wahl.github.io#about",
+      "https://dale-wahl.github.io#contact",
+      "https://dale-wahl.github.io#portfolioModal2",
+      "https://dale-wahl.github.io#page-top",
+      "https://dale-wahl.github.io#services",
+      "https://dale-wahl.github.io#portfolioModal4",
+      "https://dale-wahl.github.io#portfolioModal6",
+      "https://dale-wahl.github.io#portfolioModal5",
+      "https://dale-wahl.github.io#portfolioModal7",
+      "https://dale-wahl.github.io#portfolioModal3"
+    ],
+    "insights": {
+      "most_common_framework": null,
+      "avg_routes_per_spa_page": 13.0,
+      "spa_adoption_rate": "1/2 pages (50.0%)"
+    }
+  }
+}
